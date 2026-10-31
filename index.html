@@ -29,18 +29,25 @@ section.block{padding:78px 0}.tint{background:var(--soft)}.section-head{max-widt
 .video-panel{display:grid;grid-template-columns:1fr auto;align-items:center;gap:28px;padding:30px;border-radius:24px;background:linear-gradient(115deg,#111f3d,#244bb2);color:#fff;box-shadow:var(--shadow)}.video-brand{display:flex;align-items:center;gap:16px}.play{width:58px;height:58px;flex:0 0 58px;border-radius:18px;background:#ff1744;display:grid;place-items:center;font-size:1.4rem;box-shadow:0 9px 25px #ff17444a}.video-panel h3{margin:0 0 5px;font-size:1.35rem}.video-panel p{margin:0;color:#cbd7f7;font-size:.92rem}.video-panel .btn{background:#fff;color:#17336f;box-shadow:none;white-space:nowrap}
 .resource-note{margin-top:18px;color:var(--muted);font-size:.88rem;text-align:center}
 .quiz-wrap{max-width:790px;margin:auto}.quiz-card{border:1px solid var(--line);background:#fff;border-radius:24px;padding:30px;box-shadow:var(--shadow)}.quiz-meta{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap}.pill{display:inline-flex;padding:6px 11px;border-radius:99px;background:#edf2ff;color:var(--blue);font-size:.72rem;font-weight:900;letter-spacing:.08em}.counter{font-size:.84rem;color:var(--muted);font-weight:700}.quiz-progress{height:6px;background:#edf0f6;border-radius:9px;margin:18px 0 25px;overflow:hidden}.quiz-progress span{height:100%;display:block;width:0;background:var(--blue);transition:width .25s}.question{font-size:1.35rem;line-height:1.35;letter-spacing:-.025em;margin:0 0 18px}.answers{display:grid;gap:10px}.answer{padding:14px 16px;text-align:left;border:1px solid var(--line);border-radius:13px;background:#fff;color:var(--ink);cursor:pointer;transition:.15s}.answer:hover:not(:disabled){border-color:#9db2ff;background:#f7f9ff}.answer:disabled{cursor:default}.answer.correct{border-color:#1a9b69;background:#eaf8f1;color:#116b4a}.answer.incorrect{border-color:#d84d55;background:#fff0f1;color:#a32f37}.quiz-bottom{display:flex;justify-content:space-between;align-items:center;gap:15px;margin-top:20px;flex-wrap:wrap}.feedback{min-height:25px;color:var(--muted);font-size:.9rem;font-weight:650}.score-screen{text-align:center;padding:24px 10px}.score-number{font-size:3rem;font-weight:950;letter-spacing:-.06em;color:var(--blue)}.hidden{display:none!important}
+:focus-visible{outline:3px solid #315efb;outline-offset:3px}
+.answer:focus-visible,.btn:focus-visible,.menu:focus-visible{outline-offset:4px}
+@media(prefers-reduced-motion:reduce){.feature:hover,.btn:hover{transform:none}}
 .routine{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}.routine-item{padding:18px;border-radius:17px;background:#fff;border:1px solid var(--line)}.routine-item b{display:block;margin-bottom:4px}.routine-item span{color:var(--muted);font-size:.86rem}
 .cta{padding:40px;border-radius:25px;background:linear-gradient(120deg,#14274b,#315efb);color:#fff;display:flex;align-items:center;justify-content:space-between;gap:25px}.cta h2{font-size:clamp(1.7rem,3.5vw,2.5rem);line-height:1.1;letter-spacing:-.05em;margin:0 0 9px}.cta p{margin:0;color:#d5e0ff}.cta-actions{display:flex;gap:10px;flex-wrap:wrap}.cta .btn{background:#fff;color:#17336f;box-shadow:none}.cta .btn.outline{background:transparent;color:#fff;border-color:#ffffff65}
 footer{padding:30px 0;border-top:1px solid var(--line);color:var(--muted)}.footer-inner{display:flex;align-items:center;justify-content:space-between;gap:22px;flex-wrap:wrap}.footer-links{display:flex;gap:17px;flex-wrap:wrap}.footer-links a{text-decoration:none;font-size:.88rem}.copyright{font-size:.82rem}
 @media(max-width:850px){.hero-grid{gap:35px}.navlinks{gap:16px}.routine{grid-template-columns:repeat(2,1fr)}}
 @media(max-width:700px){.nav{height:68px}.menu{display:block}.navlinks{display:none;position:absolute;left:0;right:0;top:68px;background:#fff;border-bottom:1px solid var(--line);padding:18px 5%;flex-direction:column;align-items:stretch;gap:0}.navlinks.open{display:flex}.navlinks a{padding:11px 0}.navlinks .nav-cta{padding:11px 14px;margin-top:7px;text-align:center}.hero{padding:57px 0 55px}.hero-grid{grid-template-columns:1fr;gap:35px}.hero-card{transform:none}.study-panel{min-height:255px}.trust-inner{gap:13px 25px}.trust-inner span{font-size:.78rem}section.block{padding:58px 0}.grid3{grid-template-columns:1fr}.video-panel{grid-template-columns:1fr;padding:24px}.video-panel .btn{width:100%}.quiz-card{padding:22px}.question{font-size:1.2rem}.cta{padding:28px;align-items:flex-start;flex-direction:column}.cta-actions{width:100%}.cta-actions .btn{flex:1}.footer-inner{align-items:flex-start;flex-direction:column}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important}}
+.hero-photo{position:relative;margin:0;border:1px solid #e1e8fb;border-radius:27px;overflow:hidden;min-height:420px;background:#dce6f6;box-shadow:0 28px 80px rgba(35,65,130,.16);transform:rotate(1deg)}.hero-photo img{width:100%;height:420px;object-fit:cover;display:block}.hero-photo:after{content:"";position:absolute;inset:38% 0 0;background:linear-gradient(transparent,rgba(12,25,50,.82))}.hero-photo figcaption{position:absolute;z-index:1;bottom:0;left:0;right:0;padding:25px 28px;color:white;display:grid;gap:5px}.hero-photo figcaption strong{font-size:1.22rem}.hero-photo figcaption span{font-size:.92rem;color:#e2eaff}.video-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;align-items:stretch}.video-card{display:flex;flex-direction:column;min-width:0;overflow:hidden;border:1px solid var(--line);border-radius:21px;background:#fff;text-decoration:none;box-shadow:0 10px 32px rgba(20,33,61,.06);transition:transform .2s,box-shadow .2s}.video-card:hover{transform:translateY(-5px);box-shadow:var(--shadow)}.video-art{height:218px;position:relative;display:flex;align-items:center;justify-content:center;overflow:hidden;color:white}.video-art:before,.video-art:after{content:"";position:absolute;border-radius:50%;border:1px solid #ffffff35;width:280px;height:280px;right:-95px;top:-120px}.video-art:after{width:180px;height:180px;right:auto;left:-75px;top:auto;bottom:-100px}.art-lessons{background:linear-gradient(135deg,#13244a,#315efb)}.art-live{background:linear-gradient(135deg,#10223e,#194b61)}.art-shorts{background:linear-gradient(135deg,#5b3ac8,#315efb)}.video-art .play{width:62px;height:62px;border-radius:50%;font-size:1.2rem;background:#ff1744;z-index:1}.art-label{position:absolute;left:20px;top:18px;font-size:.7rem;font-weight:900;letter-spacing:.14em}.live-chip{position:absolute;top:18px;left:19px;border-radius:99px;background:#ffffff1b;padding:6px 10px;font-size:.68rem;font-weight:850;letter-spacing:.08em}.live-chip i{display:inline-block;width:7px;height:7px;background:#ff4d5e;border-radius:50%;margin-right:6px}.art-title{font-size:1.55rem;font-weight:850;line-height:1.1;letter-spacing:-.04em;z-index:1;margin-right:auto;margin-left:23px;margin-top:30px}.shorts-mark{font-size:3.7rem;font-weight:950;z-index:1;text-shadow:0 8px 25px #101b3560}.video-caption{display:grid;gap:7px;padding:19px 20px 21px;flex:1}.video-caption strong{font-size:1.06rem;color:var(--navy)}.video-caption span{font-size:.9rem;color:var(--muted);line-height:1.5}.video-caption b{font-size:.86rem;color:var(--blue);margin-top:5px}.hero-photo{transform:none}.video-card:focus-visible{outline:3px solid var(--blue);outline-offset:4px}.feature-icon{box-shadow:inset 0 0 0 1px #315efb12}.section-head h2{letter-spacing:-.055em}.hero{background:radial-gradient(circle at 83% 24%,rgba(98,135,255,.2),transparent 30%),linear-gradient(130deg,#f5f7ff 0%,#fff 58%,#f4f1ff 100%)}@media(max-width:850px){.hero-photo,.hero-photo img{min-height:350px;height:350px}.video-grid{grid-template-columns:repeat(2,1fr)}.video-card-feature{grid-column:span 2}}@media(max-width:600px){.hero-photo,.hero-photo img{height:300px;min-height:300px}.video-grid{grid-template-columns:1fr}.video-card-feature{grid-column:auto}.video-art{height:200px}}
+.brand-logo{display:block;object-fit:cover;clip-path:circle(36% at 55% 48%);background:transparent;box-shadow:none;border-radius:0}.quote-band{padding:34px 0;background:linear-gradient(115deg,#101b35,#182d58);color:#fff}.quote-inner{display:grid;grid-template-columns:150px 1fr auto;align-items:center;gap:25px}.quote-logo{width:150px;height:150px;object-fit:cover;clip-path:circle(36% at 55% 48%);filter:drop-shadow(0 10px 24px #0004)}.quote-copy .kicker{color:#a9bfff}.quote-copy blockquote{margin:7px 0 8px;font-size:clamp(1.25rem,2.4vw,2rem);font-weight:850;line-height:1.35;letter-spacing:0;color:#fff}.quote-copy p{margin:0;color:#c4d0ec;font-size:.93rem}.threads-link{display:inline-flex;align-items:center;gap:10px;white-space:nowrap;padding:12px 15px;border:1px solid #ffffff45;border-radius:13px;color:#fff;text-decoration:none;font-weight:800;transition:background .2s,border-color .2s}.threads-link:hover{background:#ffffff18;border-color:#ffffff8a}.threads-link b{color:#b9caff}.threads-icon{width:27px;height:27px;display:grid;place-items:center;border:1.5px solid #ffffffbd;border-radius:50%;font-size:.96rem;font-weight:900;line-height:1}@media(max-width:760px){.quote-inner{grid-template-columns:82px 1fr;gap:15px}.quote-logo{width:82px;height:82px}.threads-link{grid-column:2;justify-self:start}.quote-copy blockquote{font-size:1.2rem}}@media(max-width:420px){.quote-inner{grid-template-columns:1fr;text-align:center;justify-items:center}.quote-logo{width:104px;height:104px}.threads-link{grid-column:auto;justify-self:center}.quote-copy p{font-size:.85rem}}
+.hero-grid{grid-template-columns:1fr;gap:28px}.hero-grid>div:first-child{max-width:820px}.hero-photo{grid-column:1;margin:0;min-height:0;background:transparent;border:0;box-shadow:none;border-radius:20px;overflow:hidden;transform:none}.hero-photo img{display:block;width:100%;height:clamp(120px,16.25vw,188px);object-fit:cover;object-position:center;border-radius:20px;box-shadow:0 22px 50px rgba(20,33,61,.18);aspect-ratio:auto}.hero-photo:after,.hero-photo figcaption{display:none}
+.youtube-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}.youtube-card{min-width:0;overflow:hidden;background:white;border:1px solid var(--line);border-radius:19px;box-shadow:0 10px 32px rgba(20,33,61,.06)}.yt-preview{position:relative;aspect-ratio:16/9;background:#101b35;overflow:hidden}.yt-preview img,.yt-preview iframe{display:block;width:100%;height:100%;border:0;object-fit:cover}.yt-play{position:absolute;inset:0;margin:auto;width:64px;height:48px;border:0;border-radius:14px;background:#ff1744;color:#fff;display:grid;place-items:center;font-size:1.25rem;cursor:pointer;box-shadow:0 8px 22px #0005;transition:transform .18s,background .18s}.yt-play:hover{transform:scale(1.08);background:#e90032}.yt-play:focus-visible{outline:3px solid white;outline-offset:3px}.yt-live-label{position:absolute;z-index:1;left:13px;top:13px;padding:6px 9px;border-radius:6px;background:#e32238;color:#fff;font-size:.65rem;font-weight:900;letter-spacing:.1em}.yt-caption{display:grid;gap:5px;padding:15px 17px 17px}.yt-caption strong{font-size:.98rem;line-height:1.35;color:var(--navy)}.yt-caption span{font-size:.82rem;color:var(--muted)}.youtube-more{display:flex;align-items:center;justify-content:space-between;gap:16px;margin-top:21px;color:var(--muted);font-size:.9rem}.youtube-more a{color:var(--blue);font-weight:800;text-decoration:none}.youtube-more a:hover{text-decoration:underline}.yt-links{display:flex;gap:18px;flex-wrap:wrap}@media(max-width:640px){.youtube-grid{grid-template-columns:1fr}.youtube-more{align-items:flex-start;flex-direction:column;gap:8px}}
 </style>
 </head>
 <body>
 <header>
   <div class="container nav">
-    <a class="brand" href="#home" aria-label="Lucent PSC home"><span class="brand-mark">L</span><span>LUCENT <span>PSC</span></span></a>
+    <a class="brand" href="#home" aria-label="Lucent PSC home"><img class="brand-mark brand-logo" src="lucent-psc-logo.png" alt="LUCENT PSC logo"><span>LUCENT <span>PSC</span></span></a>
     <button class="menu" id="menuBtn" aria-expanded="false" aria-controls="navLinks">Menu ☰</button>
     <nav class="navlinks" id="navLinks" aria-label="Main navigation">
       <a href="#learning">Learning</a><a href="#videos">Video lessons</a><a href="#quiz">Practice quiz</a><a href="#routine">Study routine</a>
@@ -58,21 +65,18 @@ footer{padding:30px 0;border-top:1px solid var(--line);color:var(--muted)}.foote
       <div class="actions"><a class="btn" href="#quiz">Start a quick quiz <span>→</span></a><a class="btn secondary" href="#videos">Explore video lessons ↗</a></div>
       <div class="micro">A learning initiative by LUCENT PSC.</div>
     </div>
-    <div class="hero-card" aria-label="Lucent PSC learning dashboard illustration">
-      <div class="card-top"><span>YOUR LEARNING SPACE</span><span class="live">READY TO LEARN</span></div>
-      <div class="study-panel">
-        <div class="panel-label">SMALL STEPS. BIG RESULTS.</div>
-        <h2>Build your confidence, one topic at a time.</h2>
-        <div class="progress-label"><span>Consistency is the key</span><b>Keep going</b></div>
-        <div class="progress"><span></span></div>
-        <div class="panel-stats"><div class="panel-stat"><b>Learn</b><small>Video lessons</small></div><div class="panel-stat"><b>Practise</b><small>Quiz questions</small></div><div class="panel-stat"><b>Revise</b><small>Study notes</small></div></div>
-      </div>
-    </div>
+    <figure class="hero-photo"><img src="study-hero.png" alt="LUCENT PSC banner with teal circuit pattern"/></figure>
   </div>
 </section>
 <div class="trustbar"><div class="container trust-inner"><span><b class="tick">✓</b> Learn at your pace</span><span><b class="tick">✓</b> Practise regularly</span><span><b class="tick">✓</b> Revise with purpose</span></div></div>
 
-<section class="block" id="learning">
+<section class="quote-band" aria-label="LUCENT PSC inspiration">
+  <div class="container quote-inner">
+    <img class="quote-logo" src="lucent-psc-logo.png" alt="LUCENT PSC emblem">
+    <div class="quote-copy"><div class="kicker">LUCENT PSC</div><blockquote lang="ml">ദൃഢനിശ്ചയം ചെയ്തവർക്ക് എന്തിനെയും മറികടക്കാൻ കഴിയും</blockquote></div>
+    <a class="threads-link" href="https://www.threads.com/@lucent_psc?xmt=AQG0NppzNhtb1rHpSE-7_ysKR3Dxk224AAD87kWjpWcFhNA" target="_blank" rel="noopener" aria-label="Follow LUCENT PSC on Threads"><span class="threads-icon" aria-hidden="true">@</span><span>Follow on Threads</span><b>↗</b></a>
+  </div>
+</section><section class="block" id="learning">
   <div class="container">
     <div class="section-head"><div class="kicker">YOUR LEARNING TOOLKIT</div><h2>Everything starts with a small step.</h2><p>Use these learning spaces to build a steady and effective PSC preparation routine.</p></div>
     <div class="grid3">
@@ -85,16 +89,16 @@ footer{padding:30px 0;border-top:1px solid var(--line);color:var(--muted)}.foote
 
 <section class="block tint" id="videos">
   <div class="container">
-    <div class="section-head"><div class="kicker">WATCH & LEARN</div><h2>Learn with LUCENT PSC.</h2><p>Visit the channel for the latest video lessons, revision sessions and PSC preparation content.</p></div>
-    <div class="video-panel">
-      <div class="video-brand"><div class="play">▶</div><div><h3>LUCENT PSC on YouTube</h3><p>Video lessons • General knowledge • PSC preparation</p></div></div>
-      <a class="btn" href="https://www.youtube.com/@lucentpsc/videos" target="_blank" rel="noopener">Watch latest videos ↗</a>
+    <div class="section-head"><div class="kicker">WATCH & LEARN</div><h2>Learn right here.</h2><p>Watch LUCENT PSC lessons and live-session replays without leaving this page.</p></div>
+    <div class="youtube-grid">
+      <article class="youtube-card"><div class="yt-preview"><img src="https://i.ytimg.com/vi/wifuZfHg1Qk/hqdefault.jpg" alt="Thumbnail: Company Board LGS detailed syllabus and study plan"><button class="yt-play" data-video-id="wifuZfHg1Qk" data-title="Company Board LGS detailed syllabus and study plan" aria-label="Play Company Board LGS detailed syllabus and study plan"><span aria-hidden="true">▶</span></button></div><div class="yt-caption"><strong>Company Board LGS: syllabus & study plan</strong><span>Study plan · 13 min</span></div></article>
+      <article class="youtube-card"><div class="yt-preview"><img src="https://i.ytimg.com/vi/sF6T8r6iMwo/hqdefault.jpg" alt="Thumbnail: Five Year Plans for Kerala PSC"><button class="yt-play" data-video-id="sF6T8r6iMwo" data-title="Five Year Plans for Kerala PSC" aria-label="Play Five Year Plans for Kerala PSC"><span aria-hidden="true">▶</span></button></div><div class="yt-caption"><strong>Five Year Plans: Kerala PSC revision</strong><span>General knowledge · 25 min</span></div></article>
+      <article class="youtube-card"><div class="yt-preview"><img src="https://i.ytimg.com/vi/Rj978grAPu8/hqdefault.jpg" alt="Thumbnail: Primary, secondary and complementary colours"><button class="yt-play" data-video-id="Rj978grAPu8" data-title="Primary, secondary and complementary colours" aria-label="Play Primary, secondary and complementary colours"><span aria-hidden="true">▶</span></button></div><div class="yt-caption"><strong>Primary, secondary & complementary colours</strong><span>Science · 10 min</span></div></article>
+      <article class="youtube-card"><div class="yt-preview"><img src="https://i.ytimg.com/vi/65GcbBv3r10/hqdefault.jpg" alt="Thumbnail: Company Board LGS important SCERT topics live replay"><span class="yt-live-label">LIVE REPLAY</span><button class="yt-play" data-video-id="65GcbBv3r10" data-title="Company Board LGS important SCERT topics live replay" aria-label="Play Company Board LGS live replay"><span aria-hidden="true">▶</span></button></div><div class="yt-caption"><strong>Company Board LGS: important SCERT topics</strong><span>Live-session replay · 39 min</span></div></article>
     </div>
-    <p class="resource-note">Video thumbnails and live uploads can be added here when individual video links or a YouTube channel ID are available.</p>
+    <div class="youtube-more"><span>Choose a thumbnail to start playback here.</span><span class="yt-links"><a href="https://www.youtube.com/@LUCENTPSC/videos" target="_blank" rel="noopener">Browse all videos ↗</a><a href="https://www.youtube.com/@LUCENTPSC/streams" target="_blank" rel="noopener">Live & replay sessions ↗</a></span></div>
   </div>
-</section>
-
-<section class="block" id="quiz">
+</section><section class="block" id="quiz">
   <div class="container">
     <div class="section-head"><div class="kicker">TEST YOUR KNOWLEDGE</div><h2>A quick practice quiz.</h2><p>Answer these sample general knowledge questions and check your score at the end.</p></div>
     <div class="quiz-wrap"><div class="quiz-card" id="quizCard">
@@ -102,7 +106,7 @@ footer{padding:30px 0;border-top:1px solid var(--line);color:var(--muted)}.foote
         <div class="quiz-meta"><span class="pill">GENERAL KNOWLEDGE</span><span class="counter" id="qCount">Question 1 of 6</span></div>
         <div class="quiz-progress"><span id="quizProgress"></span></div>
         <h3 class="question" id="question">Which is the capital of Kerala?</h3>
-        <div class="answers" id="answers"></div>
+        <div class="answers" id="answers" role="group" aria-label="Answer choices"></div>
         <div class="quiz-bottom"><div class="feedback" id="feedback" aria-live="polite">Choose the correct answer.</div><button class="btn small" id="nextBtn" disabled>Next question →</button></div>
       </div>
       <div class="score-screen hidden" id="scoreScreen"><div class="kicker">QUIZ COMPLETED</div><div class="score-number" id="scoreNumber">0/6</div><h3 id="scoreTitle">Good effort!</h3><p id="scoreMessage" class="micro"></p><button class="btn" id="restartBtn">Try again ↻</button></div>
@@ -123,10 +127,10 @@ footer{padding:30px 0;border-top:1px solid var(--line);color:var(--muted)}.foote
 </section>
 
 <section class="block" id="about">
-  <div class="container"><div class="cta"><div><div class="kicker" style="color:#b9caff">STAY CONNECTED</div><h2>Prepare smarter.<br>Move forward.</h2><p>Follow LUCENT PSC for video lessons and learning updates.</p></div><div class="cta-actions"><a class="btn" href="https://www.youtube.com/@lucentpsc" target="_blank" rel="noopener">YouTube ↗</a><a class="btn outline" href="https://www.instagram.com/lucent_psc/" target="_blank" rel="noopener">Instagram ↗</a></div></div></div>
+  <div class="container"><div class="cta"><div><div class="kicker" style="color:#b9caff">STAY CONNECTED</div><h2>Prepare smarter.<br>Move forward.</h2><p>Follow LUCENT PSC for video lessons and learning updates.</p></div><div class="cta-actions"><a class="btn" href="https://www.youtube.com/@lucentpsc" target="_blank" rel="noopener">YouTube ↗</a><a class="btn outline" href="https://www.instagram.com/lucent_psc/" target="_blank" rel="noopener">Instagram ↗</a><a class="btn outline" href="https://www.threads.com/@lucent_psc?xmt=AQG0NppzNhtb1rHpSE-7_ysKR3Dxk224AAD87kWjpWcFhNA" target="_blank" rel="noopener">Threads ↗</a></div></div></div>
 </section>
 </main>
-<footer><div class="container footer-inner"><div><a class="brand" href="#home"><span class="brand-mark">L</span><span>LUCENT <span>PSC</span></span></a><div class="copyright">Learn. Practise. Succeed.</div></div><div class="footer-links"><a href="#learning">Learning</a><a href="#quiz">Practice quiz</a><a href="https://www.youtube.com/@lucentpsc" target="_blank" rel="noopener">YouTube</a><a href="https://www.instagram.com/lucent_psc/" target="_blank" rel="noopener">Instagram</a></div><div class="copyright">© <span id="year"></span> LUCENT PSC</div></div></footer>
+<footer><div class="container footer-inner"><div><a class="brand" href="#home"><img class="brand-mark brand-logo" src="lucent-psc-logo.png" alt="LUCENT PSC logo"><span>LUCENT <span>PSC</span></span></a><div class="copyright">Learn. Practise. Succeed.</div></div><div class="footer-links"><a href="#learning">Learning</a><a href="#quiz">Practice quiz</a><a href="https://www.youtube.com/@lucentpsc" target="_blank" rel="noopener">YouTube</a><a href="https://www.instagram.com/lucent_psc/" target="_blank" rel="noopener">Instagram</a><a href="https://www.threads.com/@lucent_psc?xmt=AQG0NppzNhtb1rHpSE-7_ysKR3Dxk224AAD87kWjpWcFhNA" target="_blank" rel="noopener">Threads</a></div><div class="copyright">© <span id="year"></span> LUCENT PSC</div></div></footer>
 
 <script>
 const questions=[
@@ -140,13 +144,13 @@ const questions=[
 let current=0,score=0,locked=false;
 const qEl=document.getElementById("question"),answersEl=document.getElementById("answers"),feedbackEl=document.getElementById("feedback"),countEl=document.getElementById("qCount"),nextBtn=document.getElementById("nextBtn"),progressEl=document.getElementById("quizProgress");
 function renderQuestion(){
- locked=false;const item=questions[current];qEl.textContent=item.q;countEl.textContent=`Question ${current+1} of ${questions.length}`;progressEl.style.width=`${(current/questions.length)*100}%`;feedbackEl.textContent="Choose the correct answer.";nextBtn.disabled=true;answersEl.innerHTML="";
+ locked=false;const item=questions[current];qEl.textContent=item.q;countEl.textContent=`Question ${current+1} of ${questions.length}`;progressEl.style.width=`${((current+(locked?1:0))/questions.length)*100}%`;feedbackEl.textContent="Choose the correct answer.";nextBtn.disabled=true;answersEl.innerHTML="";
  item.o.forEach((option,index)=>{const button=document.createElement("button");button.className="answer";button.textContent=`${String.fromCharCode(65+index)}. ${option}`;button.addEventListener("click",()=>selectAnswer(index));answersEl.appendChild(button)});
  nextBtn.textContent=current===questions.length-1?"See my score →":"Next question →";
 }
 function selectAnswer(index){
  if(locked)return;locked=true;const item=questions[current];const buttons=[...answersEl.children];buttons.forEach((button,i)=>{button.disabled=true;if(i===item.a)button.classList.add("correct")});
- if(index===item.a){score++;feedbackEl.textContent=`Correct! ${item.e}`}else{buttons[index].classList.add("incorrect");feedbackEl.textContent=`Not quite. ${item.e}`}
+ if(index===item.a){score++;feedbackEl.textContent=`Correct! ${item.e}`}else{buttons[index].classList.add("incorrect");feedbackEl.textContent=`Not quite. ${item.e}`}progressEl.style.width=`${((current+1)/questions.length)*100}%`;
  nextBtn.disabled=false;
 }
 function finishQuiz(){
@@ -159,9 +163,17 @@ nextBtn.addEventListener("click",()=>{if(!locked)return;if(current<questions.len
 document.getElementById("restartBtn").addEventListener("click",()=>{current=0;score=0;document.getElementById("scoreScreen").classList.add("hidden");document.getElementById("quizPlay").classList.remove("hidden");renderQuestion()});
 document.getElementById("year").textContent=new Date().getFullYear();
 const menuBtn=document.getElementById("menuBtn"),nav=document.getElementById("navLinks");
-menuBtn.addEventListener("click",()=>{const open=nav.classList.toggle("open");menuBtn.setAttribute("aria-expanded",String(open))});
-nav.querySelectorAll("a").forEach(a=>a.addEventListener("click",()=>{nav.classList.remove("open");menuBtn.setAttribute("aria-expanded","false")}));
-renderQuestion();
+menuBtn.addEventListener("click",()=>{const open=nav.classList.toggle("open");menuBtn.setAttribute("aria-expanded",String(open));menuBtn.textContent=open?"Close ×":"Menu ☰"});
+nav.querySelectorAll("a").forEach(a=>a.addEventListener("click",()=>{nav.classList.remove("open");menuBtn.setAttribute("aria-expanded","false");menuBtn.textContent="Menu ☰"}));
+renderQuestion();document.querySelectorAll(".yt-play").forEach(button=>button.addEventListener("click",()=>{const id=button.dataset.videoId;const title=button.dataset.title;const frame=document.createElement("iframe");frame.src=`https://www.youtube-nocookie.com/embed/${id}?autoplay=1&rel=0`;frame.title=title;frame.loading="lazy";frame.referrerPolicy="strict-origin-when-cross-origin";frame.allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share";frame.allowFullscreen=true;button.closest(".yt-preview").replaceChildren(frame)}));
 </script>
 </body>
 </html>
+
+
+
+
+
+
+
+
